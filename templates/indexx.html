@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block list %}
+        <h1>Заказы</h1>
+        {%  for order in orders %}
+            {% include 'list_item1.html' %}
+        {%  endfor %}
+{%  endblock %}
